@@ -1,0 +1,78 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(./backgroung1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container{
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  border: 1px solid rgb(225, 225, 225, .2);
+  padding: 30px 40px;
+  font-size: smaller;
+  color: white;
+  font-family: sans-serif;
+  background: transparent;
+  backdrop-filter: blur(6px); /*BLUR*/
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+input{
+  border-radius: 15px;
+  border: 1px solid rgb(225, 225, 225, .2);
+  height: 2rem;
+  padding-left: 1rem;
+  background: none;
+  color: aliceblue;
+}
+#txt{
+  width: 15.7rem;
+}
+button{
+  border-radius: 15px;
+  color: black;
+  background-color: aliceblue;
+  height: 2rem;
+  width: 15.7rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.3rem;
+  border: none;
+}
+button:hover{
+  transition: 2s ease;
+  color: aliceblue;
+  background:transparent;
+  cursor: pointer;
+}
+::placeholder{
+  color: wheat;
+}
+.forget{
+  display: flex;
+}
+#rem,#pass{
+  margin-top: 7px;
+}
+#pass{
+  margin-left: 2rem;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+a:hover{
+  text-decoration: underline;
+}
+p{
+  font-weight: 100;
+}
